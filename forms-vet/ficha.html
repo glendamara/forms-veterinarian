@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <link rel="stylesheet" href="ficha.css">
+    <div class="form-container">
+
+<form action="/submit_form" method="post">
+
+    <h1>Ficha de Atendimento.</h1>
+<hr>
+    <p>Preencha os espaços em branco abaixo, com todos os dados necessários para o atendimento do paciente, e em seguida, aguarde que entraremos em contato para confirmação da consulta! Nossa clínica agradece pela confiança, retornaremos o mais breve possível! </p>
+
+<label for="nome-tutor">Nome do tutor:</label>
+<input type="text" id="nome-tutor" name="nome-tutor">
+<br>
+
+<label for="endereço">Endereço:</label>
+<input type="endereço" id="endereço" name="endereço">
+<br>
+
+<label for="numero">Número para contato:</label>
+<input type="numero" name="numero" id="numero">
+<br>
+
+<label for="nome-pet">Nome do Pet:</label>
+<input type="nome-pet" name="nome-pet" id="nome-pet">
+<br>
+
+<label for="idade">Idade:</label>
+<input type="idade" name="idade" id="idade">
+<br>
+
+<label for="especie">Espécie/Raça:</label>
+<input type="text" name="especie" id="especie">
+<br>
+
+<fieldset>
+    <legend>Selecione o gênero:</legend>
+
+    <label>
+        <input type="radio" name="option" value="option1">
+        Macho
+    </label><br>
+
+<label>
+    <input type="radio" name="option"
+    value="option2">
+    Fêmea
+</label><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Horário para a consulta:</legend>
+
+<label>
+    <input type="radio" name="option"
+    value="option-1">
+    8:40
+</label><br>
+
+<label>
+    <input type="radio" name="option"
+    value="option-2">
+    10:15
+</label><br>
+
+<label>
+    <input type="radio" name="option"
+    value="option-3">
+    14:00
+</label><br>
+
+<label>
+    <input type="radio" name="option"
+    value="option-4">
+    15:40
+</label><br>
+
+<label>
+    <input type="radio" name="option"
+    value="option-5">
+    17:00
+</label><br>
+</fieldset>
+<button type="submit">Enviar</button>
+</div>
+    </form>
+</body>
+</html>
